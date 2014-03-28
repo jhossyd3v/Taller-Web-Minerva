@@ -1,0 +1,148 @@
+@font-face
+{
+	font-family: "Open Sans";
+	src: url("../Open_Sans/OpenSans-Light.ttf") format("truetype");
+}
+
+a
+{
+	color: #00a8eb;
+	text-decoration: none;
+}
+
+body
+{
+	background: linear-gradient(to top,#fefefe,#d8d8d8);
+	color: #00a8eb;
+	font-family: "Open Sans", "Candara";
+	font-size: 20px;
+    height: auto;
+	margin: 0 auto;
+	width: 70%;
+}
+
+button
+{
+	border-radius:  0.5em;
+	color: #00a8eb;
+	padding: 0.5em;
+}
+
+header
+{
+	margin-top: 2%;
+	width: 100%;
+}
+
+figure
+{
+	text-align: center;
+	width: 100%;
+}
+
+footer
+{
+	text-align: center;
+	font-size: 1.5em;
+	margin-top: 5%;
+}
+
+nav
+{
+	text-align: center;
+	width: 100%;
+}
+
+nav ul li
+{
+	display: inline-block;
+	margin-right: 2%;
+	padding: 0.5em;
+	transition: 1s;
+}
+
+nav ul li:hover
+{
+	margin-left: 3.5%;
+	margin-right: 5.5%;
+	transition: 1s;
+	transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+}
+
+section
+{
+	margin-top: 5%;
+}
+
+#coment, #comentarea
+{
+	vertical-align: top;
+}
+
+#email
+{
+	/*margin-left: 4.5%;*/
+    margin-left: 23px;
+}
+
+#formContacto
+{
+	margin: 0 auto;
+	text-align: center;
+	width: 50%;
+}
+
+#formContacto p
+{
+	text-align: left;
+}
+
+#inThis
+{
+	background: #00a8eb;
+	border-radius: 0.5em;
+}
+
+#inThis a
+{
+	color: #fafafa;
+	font-weight: bold;
+}
+
+#logo
+{
+	width: 80%;
+}
+
+#our
+{
+	margin: 0 auto;
+	margin-top: 5%;
+	width: 60%;
+}
+
+#social
+{
+	right: 0;
+	position: fixed;
+	top: 0;
+	width: 10%;
+}
+
+#social ul li
+{
+	display: block;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+
+#social ul li img
+{
+	width: 50%;
+}
+
+#titleContacto
+{
+	text-align: center;
+}
