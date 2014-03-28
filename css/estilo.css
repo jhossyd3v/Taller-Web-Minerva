@@ -122,6 +122,40 @@ section
 	width: 60%;
 }
 
+.post
+{
+    margin:  0 auto;
+    width: 100%;
+}
+
+#posts
+{
+    text-align: center;
+    width: 100%;
+}
+
+#posts .post .imagenPost
+{
+    margin-right: 5px;
+    width: 20%;
+}
+
+#posts .post .contenidoPost
+{
+    margin-left: 5px;
+    width: 70%;
+}
+
+#posts .post .imagenPost, #posts .post .contenidoPost
+{
+    display: inline-block;
+}
+
+#posts .post figure img
+{
+    width: 100%;
+}
+
 #social
 {
 	right: 0;
